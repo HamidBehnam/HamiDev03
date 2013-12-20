@@ -57,6 +57,11 @@ public class MainActivity extends ActionBarActivity {
         myAlert.show(getSupportFragmentManager(), "AlertFragment");
     }
 
+    public void showNewDialog(View view) {
+        PoozhmaanFragment poozhmaanFragment = new PoozhmaanFragment();
+        poozhmaanFragment.show(getSupportFragmentManager(), "PoozhmaanFragment");
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
